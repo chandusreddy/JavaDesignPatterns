@@ -1,8 +1,9 @@
 # JavaDesignPatterns
 This includes the common and frequently used Design Patterns in the Object Oriented Programming. 
 
-Contains GOF Patterns as below
+
 **GOFDesignPatterns**
+
 **Creational Patterns :  Provides guidelines to instantiate a single or group of objects. (Object creation)**
 - Singleton
 - Factory
