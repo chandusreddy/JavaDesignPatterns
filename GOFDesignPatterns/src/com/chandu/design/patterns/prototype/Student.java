@@ -10,7 +10,7 @@ public class Student implements Cloneable {
 	protected Student clone() throws CloneNotSupportedException {
 		// Shallow copy
 		// return (Student) super.clone();
-		// Deep Copy
+		// Deep Copy using the customized clone method
 		Student student = (Student) super.clone();
 		student.setGrade(new Grade());
 		return student;

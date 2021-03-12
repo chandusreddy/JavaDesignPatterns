@@ -11,7 +11,7 @@ public class PrototypePatternTest {
 		Student student2 = student1.clone();
 		System.out.println(student1);
 		System.out.println(student2);
-
+		// Using the Copy constructor methods.
 		Student student3 = new Student(student1);
 		System.out.println(student3);
 
