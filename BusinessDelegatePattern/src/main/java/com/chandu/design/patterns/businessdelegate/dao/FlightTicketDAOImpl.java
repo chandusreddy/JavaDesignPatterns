@@ -9,6 +9,7 @@ import com.chandu.design.patterns.businessdelegate.entites.FlightTicket;
 @Repository
 public class FlightTicketDAOImpl implements FlightTicketDAO {
 
+	// Insert SQL for the Flight Ticket
 	private static final String sql = "insert into flightticket (airlines,arrival,departure) values(?,?,?)";
 
 	@Autowired
